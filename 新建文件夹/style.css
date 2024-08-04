@@ -1,0 +1,63 @@
+*{
+	padding:0;
+	margin:0;
+}
+#board{
+	position:relative;
+	width:100vw;
+	height:100vh;
+	background-color:#F1EEE7;
+	overflow:hidden;
+	font-family:FangSong;
+}
+.maomoa{
+	width:250px;
+	height:350px;
+	text-align:center;
+	position:absolute;
+	bottom:-5vh;
+	right:13vw;
+	display:inline-block;
+	transform:scale(0.5);
+}
+.center-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+#merit{
+	position:absolute;
+	width:1200px;
+	height:750px;
+	bottom:-2%;
+	
+	display:none;
+	text-align:center;
+	animation:fadeOut 1.5s forwards;
+}
+#merit p{
+	margin:15px;
+	font-weight:bold;
+	transition:color 1s ease;
+}
+#merit .big{
+	font-size:58px;
+	color:#37271f;
+}
+#merit .medium{
+	font-size:53px;
+	color:#6b5138;
+}
+#merit .small{
+	font-size:48px;
+	color:#675343;
+}
+@keyframes fadeOut{
+	to{
+		opacity:0;
+	}
+}
+
+
+	
